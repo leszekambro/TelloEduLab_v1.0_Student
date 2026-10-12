@@ -124,34 +124,6 @@ Ready worlds in `worlds/`:
 - `dynamic_obstacles`
 - `swarm_arena`
 
-Build scenes from Python:
-
-```python
-world.add_box([2, 0, .5], size=[.4, .8, 1.0])
-world.add_wall([3, 1, 1], size=[2, .1, 2])
-world.add_cylinder([3, -1, .5], radius=.2, height=1)
-world.add_gate([4, 0, 1])
-world.add_aruco(marker_id=23, position=[2.5, 0, 1])
-world.add_moving_box([2,-1,.7], [2,1,.7], speed=.5)
-```
-
-World objects are instructor/environment state. Student navigation code should use sensors rather than object coordinates.
-
-## 3. Raycast distance sensors
-
-```python
-d_front = tello.get_front_distance()
-d_left  = tello.get_left_distance()
-d_right = tello.get_right_distance()
-```
-
-Also available: back/up/down. They are simulator teaching sensors, not stock Tello EDU SDK sensors.
-
-
-## Safety for real Tello EDU
-
-Use a clear indoor test area, propeller guards, low initial velocities and an operator ready to issue `land()`/`emergency()`. Validate algorithms in simulation first. Simulator timing, camera rendering, sensing and Crazyflie dynamics used by gym-pybullet-drones are not an exact model of DJI Tello dynamics.
-
 ## Third-party software
 
 TelloEduLab uses `gym-pybullet-drones` and PyBullet for simulation and DJITelloPy for physical Tello communication. Check the respective upstream licenses when redistributing the project. `gym-pybullet-drones` is used as an external dependency rather than copied into this repository.
