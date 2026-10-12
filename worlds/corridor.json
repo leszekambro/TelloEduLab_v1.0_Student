@@ -1,0 +1,3 @@
+{"description":"Corridor for ranging and optical flow","objects":[
+{"type":"wall","position":[2,1.5,1.0],"size":[5,0.1,2]},
+{"type":"wall","position":[2,-1.5,1.0],"size":[5,0.1,2]}]}

@@ -1,0 +1,4 @@
+{"description":"Multiple ArUco landmarks","objects":[
+{"type":"aruco","marker_id":10,"size":0.35,"position":[2.5,0,1.0],"yaw":180},
+{"type":"aruco","marker_id":20,"size":0.30,"position":[3.5,1.2,1.2],"yaw":180},
+{"type":"aruco","marker_id":30,"size":0.30,"position":[3.5,-1.2,0.8],"yaw":180}]}

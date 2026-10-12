@@ -1,0 +1,13 @@
+# TelloEduLab v0.5 - core (simulation + real Tello + CV + classical ML)
+djitellopy
+numpy
+scipy
+opencv-contrib-python
+matplotlib
+scikit-learn>=1.5
+pybullet
+gymnasium
+control
+transforms3d
+pillow
+gym-pybullet-drones @ git+https://github.com/learnsyslab/gym-pybullet-drones.git

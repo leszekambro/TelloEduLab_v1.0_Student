@@ -1,0 +1,4 @@
+# ORB feature/matching/simple VO examples need only requirements.txt.
+-r requirements.txt
+# Full ORB-SLAM3 is intentionally NOT pip-installed here: it is a native C++ project
+# with Pangolin/Eigen/OpenCV build requirements. See README Advanced / ORB-SLAM3.

@@ -1,0 +1,162 @@
+{
+  "description": "Lab 13 mapping gallery: visible colored objects, walls and open corridors. Camera points body +X.",
+  "objects": [
+    {
+      "type": "box",
+      "name": "red_tower",
+      "position": [
+        1.8,
+        -1.25,
+        0.75
+      ],
+      "size": [
+        0.45,
+        0.45,
+        1.5
+      ],
+      "rgba": [
+        0.95,
+        0.18,
+        0.14,
+        1
+      ]
+    },
+    {
+      "type": "box",
+      "name": "blue_tower",
+      "position": [
+        3.1,
+        1.2,
+        0.75
+      ],
+      "size": [
+        0.5,
+        0.55,
+        1.5
+      ],
+      "rgba": [
+        0.14,
+        0.32,
+        0.95,
+        1
+      ]
+    },
+    {
+      "type": "cylinder",
+      "name": "yellow_column",
+      "position": [
+        3.7,
+        -0.75,
+        0.8
+      ],
+      "radius": 0.28,
+      "height": 1.6,
+      "rgba": [
+        0.96,
+        0.76,
+        0.12,
+        1
+      ]
+    },
+    {
+      "type": "box",
+      "name": "green_block",
+      "position": [
+        1.0,
+        1.25,
+        0.7
+      ],
+      "size": [
+        0.5,
+        0.5,
+        1.4
+      ],
+      "rgba": [
+        0.12,
+        0.77,
+        0.36,
+        1
+      ]
+    },
+    {
+      "type": "box",
+      "name": "purple_block",
+      "position": [
+        4.55,
+        0.55,
+        0.7
+      ],
+      "size": [
+        0.45,
+        0.65,
+        1.4
+      ],
+      "rgba": [
+        0.66,
+        0.22,
+        0.78,
+        1
+      ]
+    },
+    {
+      "type": "wall",
+      "name": "north_wall",
+      "position": [
+        2.5,
+        2.2,
+        0.8
+      ],
+      "size": [
+        5.7,
+        0.12,
+        1.6
+      ],
+      "rgba": [
+        0.75,
+        0.77,
+        0.81,
+        1
+      ]
+    },
+    {
+      "type": "wall",
+      "name": "south_wall",
+      "position": [
+        2.5,
+        -2.2,
+        0.8
+      ],
+      "size": [
+        5.7,
+        0.12,
+        1.6
+      ],
+      "rgba": [
+        0.78,
+        0.8,
+        0.84,
+        1
+      ]
+    },
+    {
+      "type": "wall",
+      "name": "east_wall",
+      "position": [
+        5.3,
+        0,
+        0.8
+      ],
+      "size": [
+        0.12,
+        4.5,
+        1.6
+      ],
+      "rgba": [
+        0.72,
+        0.75,
+        0.8,
+        1
+      ]
+    }
+  ]
+}

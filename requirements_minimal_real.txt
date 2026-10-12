@@ -1,0 +1,4 @@
+# Physical Tello EDU + OpenCV only
+djitellopy
+numpy
+opencv-contrib-python
