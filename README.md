@@ -1,4 +1,12 @@
-# TelloEduLab v1.0
+TelloEduLab v1.0
+
+### From Simulation to Real Flight — A Python Framework for Autonomous Drone Education and Research
+
+**TelloEduLab** is an open-source-oriented Python framework designed for education, experimentation, and research in autonomous aerial robotics using the **DJI Tello and Tello EDU** platforms.
+The framework bridges the gap between simulation and real-world experimentation by providing a unified programming interface for virtual and physical drones.
+Students and researchers can develop, test, visualize, and evaluate flight-control and navigation algorithms in a local **PyBullet-based 3D simulator**, then transfer their implementations to a physical drone with minimal modifications.
+
+---
 
 ## SIM -> REAL standard
 
@@ -28,12 +36,6 @@ telloedu/
   sim/       Tello simulator, PyBullet backend, World, ArUco, Swarm
   real/      physical DJI Tello EDU adapter (DJITelloPy)
   common/    reusable algorithms such as PID
-```
-
-Compatibility imports from v0.4 remain available:
-
-```python
-from telloedu import Tello, RealTello, create_tello
 ```
 
 ## Installation
