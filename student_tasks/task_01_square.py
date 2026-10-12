@@ -1,7 +1,5 @@
 from telloedu import create_tello
 
-
-
 MODE = "sim"              # "sim" or "real"
 HOST = "192.168.10.1"     # IP address of the physical Tello/Tello EDU
 
